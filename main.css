@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Comfortaa", cursive;
+}
+.header {
+  width: 100%;
+  box-shadow: 1px 1px 5px grey;
+  font-weight: bolder;
+  color: #0067b8;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+.inp-val {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 230px;
+  margin-top: 50px;
+  border-radius: 0px 10px;
+  box-shadow: 1px 1px 5px grey;
+}
+.inp-val p {
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+  color: #0067b8;
+  font-family: "Pacifico", cursive;
+}
+.inp-val input[type="text"] {
+  padding: 10px;
+  margin: 20px 66px;
+  box-shadow: 1px 1px 5px grey;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 0px 10px 0px 10px;
+  background-color: #fff;
+  color: #222;
+  text-align: center;
+}
+
+input[type="button"] {
+  padding: 10px;
+  margin: 10px 66px;
+  box-shadow: 1px 1px 5px grey;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 0px 10px 0px 10px;
+  color: #fff;
+  background-color: #0067b8;
+  width: 215px;
+}
+
+#myTable {
+  background-color: white;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 0px 10px;
+  padding: 10px 0px;
+  box-shadow: 1px 1px 5px grey;
+  line-height: 1.6;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  box-shadow: 0px -2px 5px grey;
+}
+.footer p {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+::placeholder {
+  font-family: "Pacifico", cursive;
+  color: #0067b8;
+  text-align: center;
+}
